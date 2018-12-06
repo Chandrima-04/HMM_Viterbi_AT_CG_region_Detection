@@ -1,0 +1,61 @@
+ID: CP003331.1
+Name: CP003331.1
+Description: CP003331.1 Vibrio cholerae IEC224 chromosome II, complete sequence
+Number of features: 0
+Seq('TGGAGTATTAACAGAAAATTGATACCAAACGAACAAAGTTAAGTATAAAAACCG...TAT', SingleLetterAlphabet())
+
+Initial probabilities
+Transition probabilities
+One_One = .999 One_Two = .001 Two_One = .01, Two_Two = .99.
+Initiation probabilities 
+State 1 = .996 State 2 = .004
+Emission Probabilities
+State 1: e_A = .291 e_T = .291, e_G = .209 e_C = .209 
+State 2: e_A = .169 e_T = .169, e_G = .331 e_C = .331
+
+Transition probabilities
+One_One One_Two Two_One Two_Two
+0.999956 4.4e-05 0.004385 0.995615
+0.99999 1e-05 0.002266 0.997734
+0.999993 7e-06 0.001808 0.998192
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+0.999994 6e-06 0.001546 0.998454
+
+Final States Calculated after each iteration
+AT rich GC rich
+1061417 10719
+1067281 4855
+1068265 3871
+1068256 3880
+1068256 3880
+1068256 3880
+1068256 3880
+1068256 3880
+1068256 3880
+1068256 3880
+
+Final Segments Calculated after each iteration
+AT rich GC rich
+48 47
+12 11
+8 7
+7 6
+7 6
+7 6
+7 6
+7 6
+7 6
+7 6
+
+GC Rich Region
+275668 276364
+666686 667662
+669452 670313
+746325 746563
+952635 953264
+1023945 1024419
