@@ -135,11 +135,11 @@ string = ""
 fasta_sequences = SeqIO.parse(open(r"C:\Users\Chandrima\Downloads\sequence.fasta"),'fasta')
 for fasta in fasta_sequences:
         name, sequence = fasta, str(fasta.seq)
-string = str(name) + "\n"
-curr = "\n" +"Transition probabilities" + "\n" + "One_One Two_One One_Two Two_Two" + "\n"
+string = str(name) + "\n"string += "\n" + "Initial probabilities" +"\n" + "Transition probabilities"+"\n"+"One_One = .999 One_Two = .001 Two_One = .01, Two_Two = .99."+ "\n" + "Initiation probabilities " + "\n" + "State 1 = .996 State 2 = .004" + "\n"+ "Emission Probabilities" + "\n"+ "State 1: e_A = .291 e_T = .291, e_G = .209 e_C = .209 " + "\n" + "State 2: e_A = .169 e_T = .169, e_G = .331 e_C = .331" + "\n"
+curr = "\n" +"Transition probabilities" + "\n" + "One_One One_Two Two_One Two_Two" + "\n"
 oo,ot, to,tt = 0.999,0.001,0.01,0.99
 string += curr
-length = viterbi.__len__()
+#length = viterbi.__len__()
 i=10
 states, segments = "", ""
 while i!=0:
