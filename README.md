@@ -1,5 +1,4 @@
 # HMM_Viterbi_AT_CG_region_Detection
-Programming Final 
 
 Write a program that implements a 2-­state HMM for detecting G+C-rich regions in the Vibrio cholerae IEC224 chromosome II sequence. Conceptually, state 1 in the HMM would correspond to the more frequent 'A+T rich' state, whereas state 2 would correspond to the less frequent G+C­ rich state. Specifically:
 a.	The starting parameter values should be as follows:
@@ -17,8 +16,3 @@ Your output should provide:
 c.	the name and first line of the .fna file
 d.	the information described above (i.e. numbers of states and segments, and new probability values), for each of the 10 iterations. Give probabilities to 4 decimal places only.
 e.	the list of G+C ­rich segments (corresponding to the segments having state 2 as the underlying state) after the final (10th) round of Viterbi training, sorted by genomic position.
-
-
-●	Note: If for any reason your code was not working completely by the deadline, you can submit the pseudocode and/or description of your approach for  a partial grade.
-
-
